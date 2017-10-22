@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Round Robin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/rr_intro"
+                    android:title="Introduction" />
+                <item
+                    android:id="@+id/rr_theory"
+                    android:title="Theory" />
+                <item
+                    android:id="@+id/rr_objective"
+                    android:title="Objective" />
+                <item
+                    android:id="@+id/rr_simulation"
+                    android:title="Simulation" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Shortest Remaining Time">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/srt_intro"
+                    android:title="Introduction" />
+                <item
+                    android:id="@+id/srt_theory"
+                    android:title="Theory" />
+                <item
+                    android:id="@+id/srt_objective"
+                    android:title="Objective" />
+                <item
+                    android:id="@+id/srt_simulation"
+                    android:title="Simulation" />
+            </group>
+        </menu>
+    </item>
+</menu>
